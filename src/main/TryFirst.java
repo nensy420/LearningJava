@@ -3,6 +3,7 @@ package main;
 import java.util.ArrayList;
 import java.util.List;
 import static main.examples.Boolean.dividesSelf;
+import static main.examples.Boolean.hasOne;
 
 
 public class TryFirst {
@@ -41,5 +42,6 @@ public class TryFirst {
     public static void main(String args[]) {
         frontTimes();
         dividesSelf(128);
+        hasOne(300);
     }
 }
