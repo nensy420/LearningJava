@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import static main.examples.Boolean.dividesSelf;
 import static main.examples.Boolean.hasOne;
+import static main.examples.Boolean.wordsFront;
 
 
 public class TryFirst {
@@ -43,5 +44,6 @@ public class TryFirst {
         frontTimes();
         dividesSelf(128);
         hasOne(300);
+       wordsFront(["a", "b", "c", "d"], 1);
     }
 }
