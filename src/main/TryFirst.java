@@ -2,6 +2,8 @@ package main;
 
 import java.util.ArrayList;
 import java.util.List;
+import static main.examples.Boolean.dividesSelf;
+
 
 public class TryFirst {
     public static List<String> noX() {
@@ -38,5 +40,6 @@ public class TryFirst {
 
     public static void main(String args[]) {
         frontTimes();
+        dividesSelf(128);
     }
 }
