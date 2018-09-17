@@ -42,6 +42,6 @@ public class TryFirst {
     public static void main(String args[]) {
         frontTimes();
         dividesSelf(128);
-        hasOne(300);
     }
+
 }
