@@ -16,7 +16,7 @@ public class TryFirst {
         strings.removeIf(n->((n.length()<=1)));
         System.out.println( "New string is "+strings);
         strings.removeIf(n->(n.substring(0,2).equals("yy")));
-        System.out.println( "New string 2  is "+strings);
+        System.out.println( "Version test1");
         strings.replaceAll(n->(n+"y"));
         System.out.println( "New string 3  is "+strings);
         return strings;
