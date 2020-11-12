@@ -20,9 +20,13 @@ public class TryFirst {
         strings.replaceAll(n->(n+"y"));
         System.out.println( "New string 3  is "+strings);
         return strings;
-
-
     }
+
+    public void addByUser1() {
+        frontTimes();
+        dividesSelf(128);
+    }
+
     public static String frontTimes() {
         String str = "Chocolate";
         int n=3;
@@ -35,8 +39,6 @@ public class TryFirst {
         }
         System.out.println("New result "+result);
         return result;
-
-
     }
 
     public static void main(String args[]) {
