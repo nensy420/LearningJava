@@ -46,4 +46,18 @@ public class TryFirst {
         dividesSelf(128);
     }
 
+    public static String testUser2() {
+        String str = "Chocolate";
+        int n=3;
+        String result="";
+        for (int i=0; i<n; i++) {
+            if(str.length()>=3){
+                result = str.substring(0,3);
+                result = result + result;}
+            else result= result+str;
+        }
+        System.out.println("New result "+result);
+        return result;
+    }
+
 }
